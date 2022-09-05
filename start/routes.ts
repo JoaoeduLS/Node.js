@@ -26,5 +26,13 @@ Route.get('/', async () => {
 Route.get('/test', async () => {
   return { test: 'test' }
 })
-Route.get('/lista2/ex1',"Lista1sController.ex1")
+Route.post('/lista2/ex1',"Lista1sController.ex1")
+Route.post('/lista2/ex2',"Lista1sController.ex2")
+Route.post('/lista2/ex3',"Lista1sController.ex3")
+Route.post('/lista2/ex4',"Lista1sController.ex4")
+Route.post('/lista2/ex5',"Lista1sController.ex5")
+Route.post('/lista2/ex6',"Lista1sController.ex6")
+Route.post('/lista2/ex7',"Lista1sController.ex7")
+Route.post('/lista2/ex8',"Lista1sController.ex8")
+Route.post('/lista2/ex9',"Lista1sController.ex9")
 
